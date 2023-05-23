@@ -254,6 +254,10 @@ sp1{
     
         color: rgb(16, 136, 211);
     }
+    .ok1{
+        display: flex;
+        margin: 11%;
+    }
     .v1{
         margin-left: 50%;
     }
@@ -290,16 +294,19 @@ sp1{
         
     }
     .addtask{
-        width: 250px;
-        height: 200px;
+        width: 240px;
+        height: 150px;
         /* border: 1px solid red; */
         border-radius: 20px;
-        
-        background-color:white;
         position: absolute;
-        left: 7%;
-        top: 150px;
+        background-color:white;
+        
+       
+        left: 10%;
+       
+       top: 150px;
         font-size: 15px;
+        
        
         
         
@@ -348,7 +355,8 @@ sp1{
         background-color: aliceblue;
         border: 1px solid black;
         border-radius: 50%;
-        margin-left: 50%;
+        
+        margin-left:10%;
     }
     .add5{
     
