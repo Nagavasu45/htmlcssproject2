@@ -1,26 +1,8 @@
 .abb1{
     text-decoration: none;
     
-    
 }
-.go3{
-    text-decoration: none;
-    
-    
-}
- .go4{
-    margin-left: 200px;
-    width: 30px;
-    height: 30px;
-    background-color: blue;
-    color: white;
-    border: 0px solid balck;
-    border-radius: 50%;
-    
-    
-
-} 
-.bbb1{
+body{
     margin: 0px;
     padding: 0px;
 }
@@ -31,18 +13,6 @@
     text-align: center;
     color: rgba(57, 131, 241, 0.932);
 }
-/* .dot2
-{
-    height: 30px;
-    width: 30px;
-    background-color: rgb(36, 113, 230);
-    border-radius: 50%; 
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    margin-left: 250px;
-    text-decoration: none;
-} */
 
 .add3{
     width: 150px;
@@ -141,28 +111,32 @@ input.ten{
     gap: 30px;
     margin-left: 70px;
     
-    margin-top: 50px;
+    margin-top: 100px;
     padding-bottom: 300px;
    
 }
 
 .seven{
-    height: 350px;
-    width: 350px;
+    height: 370px;
+    width: 370px;
     background-color: aliceblue;
     border-radius: 25px;
 }
-/* .dot
+.v1{
+    margin-left: 900px;
+}
+.dot
 {
-    height: 100px;
-    width:100px;
+    height: 35px;
+    width: 35px;
     background-color: rgb(36, 113, 230);
     border-radius: 50%; 
     color: white;
     font-size: 30px;
     text-align: center;
-    margin-left: 950px;
-} */
+    
+    text-decoration: none;
+}
 
 .five{
    
@@ -184,6 +158,7 @@ input.ten{
     background-color: lightgrey;
     height:auto;
     width: auto;
+    
     
     
 }
@@ -222,19 +197,24 @@ padding-left: 150px;
     font-size: 20px;
     
 } 
-.dot
-{
+.ok1{
+    display: flex;
+}
+.dot1{
     height: 30px;
     width: 30px;
-    background-color: rgb(36, 113, 230);
-    border-radius: 50%; 
-    color: white;
+    margin-left: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color:rgb(16, 136, 211); 
     font-size: 30px;
     text-align: center;
-    margin-left: 950px;
+    color: white;
 }
 .five1{
     font-size:20px ;
+    padding-top: 5px;
+    
 }
 sp1{
    margin-left: 500px;
@@ -255,25 +235,14 @@ sp1{
     border-radius: 25px;
     margin-left: 420px;
 }
- @media  only screen and (min-width:300px) and  (max-width:450px) {
-    .seven1{
-        height: 270px;
-        width: 470px;
-        background-color: aliceblue;
-        border-radius: 25px;
-        margin-left: 20px;
-    }
-    
-
+@media only screen and (min-width:300px) and (max-width:450px){
     .one{
         display: flex;
-        padding: 0px;
-        margin: 0px;
     }
     .two{
     font-size:20px;
     font-weight: bolder;
-    padding-left: 10px;
+    padding-left: 30px;
     
     
     
@@ -281,157 +250,129 @@ sp1{
     .three{
         font-size: 20px;
         font-weight: bolder;
-        margin-left: 5px;
+        margin-left: 3px;
     
         color: rgb(16, 136, 211);
     }
-    
-    
-    
-.dot
-{
-    height: 30px;
-    width: 30px;
-    background-color: rgb(36, 113, 230);
-    border-radius: 50%;
-    color: white; 
-    justify-content: center;
-    font-size: 25px;
-    font-weight: bolder;
-    padding-top: 6px;
+    .v1{
+        margin-left: 50%;
+    }
+    .dot
+    {
+        height: 35px;
+        width: 35px;
+        background-color: rgb(36, 113, 230);
+        border-radius: 50%; 
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        
+        text-decoration: none;
+    }
+    .main1{
+        width: auto;
+        height: auto;
+       
+        /* flex-wrap: wrap; */
+        
+        margin-left: auto;
+        
+        margin-top: 30px;
+        
+       
+    }
+    .seven{
+        height: 220px;
+        width: 280px;
+        background-color: aliceblue;
+        border-radius: 15px;
+        margin: auto;
+        
+    }
+    .addtask{
+        width: 250px;
+        height: 200px;
+        /* border: 1px solid red; */
+        border-radius: 20px;
+        
+        background-color:white;
+        position: absolute;
+        left: 7%;
+        top: 150px;
+        font-size: 15px;
+       
+        
+        
+    }
+    .add1{
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 10px;
+         margin-right: 75px; 
+    }
+    .add2{
+        height: 20px;
+        width: 80%;
+       
+      
+       /* padding-left: 10px; */
+       background-color: whitesmoke;
+       margin-left: 20px;
+       font-size: 12px;
+      padding-left: 5px;
+      padding-top: 4px;
+    }
+    .add3{
+        width: 50%;
+        height: 30px;
+        background-color: rgb(43, 43, 241);
+        color: white;
+        text-align: center;
+        border-radius: 3px;
+        padding-top: 4px;
+        margin-top: 20px;
+        margin-left: 100px;
+    }
+    .four1{
    
-    
-    
-    
-    margin-left: 220px;
-}
-.ll{
-    text-decoration: none;
-     text-align: center;
-    font-size: 25px;
-    color: white;
-    justify-content: center;  
-    
+        height:500px;
+       width: auto;
+        background-color: lightgrey;
+        
+        
+        
+    }
+    .img1{
+        height: 20px;
+        width: 20px;
+        background-color: aliceblue;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin-left: 50%;
+    }
+    .add5{
     
   
+        font-size: 20px;
+        margin-left: 3%;
+        
+    } 
+    .dot1{
+        height: 30px;
+        width: 30px;
+        margin-left: 150px;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color:rgb(16, 136, 211); 
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .seven1{
+        height: 170px;
+        width: 280px;
+        background-color: aliceblue;
+        border-radius: 25px;
+        margin: auto;
+    }
 }
-.four{
-    background-color: lightgrey;
-    height:auto;
-    width: auto;
-    
-    
-}
-.main1{
-    width: auto;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    flex-direction: column;
-     /* align-items: center;     */
-    
-    /* margin-top: 30px; */
-    /* padding-bottom: 300px; */
-   
-}
-.seven{
-    height: 300px;
-    width: 300px;
-    background-color: aliceblue;
-    border-radius: 15px;
-}
-.add3{
-    width: 90px;
-    height: 25px;
-    background-color: rgb(43, 43, 241);
-    color: white;
-    text-align: center;
-    border-radius: 3px;
-    padding-top: 4px;
-    margin-top: 15px;
-    margin-left: 180px;
-    font-size: 15px;
-}
-.add1{
-    font-size: 15px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-right: 150px;
-}
-.addtask{
-    width: 280px;
-    height: 180px;
-    /* border: 1px solid red; */
-    border-radius: 10px;
-    
-    background-color:white;
-    position: absolute;
-    left: 18%;
-    top: 200px;
-    font-size: 20px;
-   
-    
-    
-}
-.add2{
-    height: 20px;
-    width: 245px;
-   
-  
-   /* padding-left: 10px; */
-   background-color: whitesmoke;
-   margin-left: 20px;
-   font-size: 12px;
-  padding-left: 5px;
-  padding-top: 4px;
-}
-.four1{
-   
-    
-    background-color: lightgrey;
-    margin-left: 0px;
-    padding: 0px;
-    
-    
-    
-}
-.img1{
-    height: 15px;
-    width: 15px;
-    background-color: aliceblue;
-    border: 1px solid black;
-    border-radius: 50%;
-    margin-left: 30px;
-}
-.dot1{
-    margin-left: 100px;
-    font-size: 25px;
-    height: 30px;
-    width: 30px;
-    border: 1px soild black;
-    background-color: rgb(12, 12, 165);
-    border-radius: 50%;
-    color: white;
-}
-
-.eight1{
-    
-    font-size: 20px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgba(57, 131, 241, 0.932);
-}
-.seven1{
-    height: 270px;
-    width: 300px;
-    background-color: aliceblue;
-    border-radius: 25px;
-    margin-top: 30px;
-    margin-left: 65px;
-}
-.bbb1{
-    margin: 0px;
-    padding: 0px;
-}
-} 
